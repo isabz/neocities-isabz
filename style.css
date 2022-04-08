@@ -98,7 +98,12 @@ h1 {
   height: 100%;
 }
 
-@media only screen and (max-width: 500px) { /*there is a very specific width at which my browser moves the navbar ಠ_ಠ*/
+.overlap-extras {
+  z-index: 10;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) { /*there is a very specific width at which my browser moves the navbar ಠ_ಠ*/
   
   #sidebar {
    display:flex;
@@ -121,5 +126,10 @@ h1 {
   
   .extras { /*use class = "extras" to hide anything that should be too much for phones/tablets*/
     display:none;
+  }
+
+  .avatar {
+    float: none;
+    max-width: 100%;
   }
 }
