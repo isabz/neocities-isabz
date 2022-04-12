@@ -54,6 +54,7 @@ if ( url.includes("posts/") ) {
 //Write the Header HTML, a series of list items containing links.
 let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Diary</a></li>' + 
 '<li><a href="' + relativePath + '/archive.html">Archive</a></li>'+ 
+'<li><a href = "' + relativePath + '/diaryfeed.xml">RSS Feed</a></li>'+
 '<li><a href="../">Back</a></li> </ul>';
 
 //Write the Footer HTML, which has information about the blog.
