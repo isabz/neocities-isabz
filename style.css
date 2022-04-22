@@ -103,6 +103,23 @@ h1 {
   position: relative;
 }
 
+a:link {
+  text-decoration: none;
+  color:#34345e;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 600px) { /*there is a very specific width at which my browser moves the navbar ಠ_ಠ*/
   
   #sidebar {

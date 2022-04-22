@@ -5,7 +5,7 @@
     <description>Whatever thoughts and feelings I have in that moment</description>
     <link>https://isabz.neocities.org/diary/</link>
     <lastBuildDate>
-        Wed, 06 Apr 2022 07:10:35 +0000
+        Fri, 22 Apr 2022 13:13:51 +0000
         <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
     </lastBuildDate>
     <ttl>10000</ttl>
@@ -19,6 +19,18 @@
         <link>https://isabz.neocities.org/diary/posts/2022-04-06-Easter-Break.html</link>
         <pubDate>
             Wed, 06 Apr 2022 07:10:35 +0000
+            <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
+        </pubDate>
+    </item>
+
+    <item>
+        <title>Back to uni</title>
+        <description>
+            Still more procrastination
+        </description>
+        <link>https://isabz.neocities.org/diary/posts/2022-04-22-Back-to-uni.html</link>
+        <pubDate>
+            Fri, 22 Apr 2022 13:13:51 +0000
             <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
         </pubDate>
     </item>
