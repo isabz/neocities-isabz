@@ -11,17 +11,6 @@
     <ttl>10000</ttl>
 
     <!-- to update just copy from <item> to </item>, update last build date and adjust as needed-->
-    <item>
-        <title>Easter Break</title>
-        <description>
-            Writing about my Easter break
-        </description>
-        <link>https://isabz.neocities.org/diary/posts/2022-04-06-Easter-Break.html</link>
-        <pubDate>
-            Wed, 06 Apr 2022 07:10:35 +0000
-            <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
-        </pubDate>
-    </item>
 
     <item>
         <title>Back to uni</title>
@@ -35,6 +24,17 @@
         </pubDate>
     </item>
 
+    <item>
+        <title>Easter Break</title>
+        <description>
+            Writing about my Easter break
+        </description>
+        <link>https://isabz.neocities.org/diary/posts/2022-04-06-Easter-Break.html</link>
+        <pubDate>
+            Wed, 06 Apr 2022 07:10:35 +0000
+            <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
+        </pubDate>
+    </item>
 
 </channel>
 </rss>
