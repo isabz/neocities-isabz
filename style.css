@@ -120,6 +120,25 @@ a:active {
   text-decoration: underline;
 }
 
+/* this is the foolovers frame */
+.box20 { 
+  background: url( 'back01.gif' );
+  box-shadow: 2px 2px 5px #000;
+  box-sizing: border-box;
+  margin: 20px  0 ;  /*Centering changes 0 to auto*/
+  padding: 10px ;
+  position: relative ; 
+  width: 100% 
+ } 
+ .icon01 { 
+  background: url( 'icon01.png' ) no-repeat;
+  height: 62px;
+  position: absolute; 
+  right: 10px;
+  top: -13px;
+  width: 27px 
+ } 
+
 @media only screen and (max-width: 600px) { /*there is a very specific width at which my browser moves the navbar ಠ_ಠ*/
   
   #sidebar {
