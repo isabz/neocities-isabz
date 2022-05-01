@@ -120,7 +120,7 @@ a:active {
   text-decoration: underline;
 }
 
-/* this is the foolovers frame */
+/* this is the to-do list */
 .box20 { 
   background: url( 'back01.gif' );
   box-shadow: 2px 2px 5px #000;
@@ -128,7 +128,7 @@ a:active {
   margin: 20px  0 ;  /*Centering changes 0 to auto*/
   padding: 10px ;
   position: relative ; 
-  max-width: 200px;
+  max-width: 300px;
  } 
  .icon01 { 
   background: url( 'icon01.png' ) no-repeat;
@@ -153,6 +153,31 @@ a:active {
   margin: 0 1em 0.5em 1em;
 }
 
+/*this is the update box*/
+.s_box32 { 
+  background : rgb(241, 228, 248); 
+  border : 2px solid midnightblue;
+  box-sizing: border-box;
+  margin : 1em  0 ;  /* Centering changes 0 to auto */ 
+  padding : 1em ; 
+  position : relative ; 
+  max-width : 100% 
+ } 
+ .s_box32::before, .s_box32::after { 
+  border : 8px solid transparent ; 
+  content : '' ; 
+  left : 30px ;  /* Triangle position */ 
+  position : absolute ; 
+  top : 100% 
+ } 
+ .s_box32::before {
+  border-top: 8px solid midnightblue;
+}
+ .s_box32::after {
+  border-top: 8px solid rgb(241, 228, 248); ;
+  margin-top: -3px;
+}
+
 @media only screen and (max-width: 600px) { /*there is a very specific width at which my browser moves the navbar ಠ_ಠ*/
   
   #sidebar {
@@ -161,6 +186,7 @@ a:active {
    justify-content: space-around;
    max-width: 100%;
    position: sticky;
+   z-index: 10;
    top: 0;
   }
   
