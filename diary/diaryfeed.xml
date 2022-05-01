@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+    <atom:link href="https://isabz.neocities.org/diary/diaryfeed.xml" rel="self" type="application/rss+xml" />
     <title>isabz' random scribblings</title>
     <description>Whatever thoughts and feelings I have in that moment</description>
     <link>https://isabz.neocities.org/diary/</link>
@@ -18,6 +19,7 @@
             Still more procrastination
         </description>
         <link>https://isabz.neocities.org/diary/posts/2022-04-22-Back-to-uni.html</link>
+        <guid>https://isabz.neocities.org/diary/posts/2022-04-22-Back-to-uni.html</guid>
         <pubDate>
             Fri, 22 Apr 2022 13:13:51 +0000
             <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
@@ -30,6 +32,7 @@
             Writing about my Easter break
         </description>
         <link>https://isabz.neocities.org/diary/posts/2022-04-06-Easter-Break.html</link>
+        <guid>https://isabz.neocities.org/diary/posts/2022-04-06-Easter-Break.html</guid>
         <pubDate>
             Wed, 06 Apr 2022 07:10:35 +0000
             <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
