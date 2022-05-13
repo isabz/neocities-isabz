@@ -161,7 +161,7 @@ a:active {
   margin : 1em  0 ;  /* Centering changes 0 to auto */ 
   padding : 1em ; 
   position : relative ; 
-  max-width : 100% 
+  max-width : 5 00px
  } 
  .s_box32::before, .s_box32::after { 
   border : 8px solid transparent ; 
