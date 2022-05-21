@@ -6,12 +6,25 @@
     <description>Whatever thoughts and feelings I have in that moment</description>
     <link>https://isabz.neocities.org/diary/</link>
     <lastBuildDate>
-        Fri, 22 Apr 2022 13:13:51 +0000
+        Sat, 21 May 2022 08:24:50 +0000
         <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
     </lastBuildDate>
     <ttl>10000</ttl>
 
     <!-- to update just copy from <item> to </item>, update last build date and adjust as needed-->
+
+    <item>
+        <title>Summer</title>
+        <description>
+            Exams are over!
+        </description>
+        <link>https://isabz.neocities.org/diary/posts/2022-05-21-Summer.html</link>
+        <guid>https://isabz.neocities.org/diary/posts/2022-05-21-Summer.html</guid>
+        <pubDate>
+            Sat, 21 May 2022 08:24:50 +0000
+            <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
+        </pubDate>
+    </item>
 
     <item>
         <title>Back to uni</title>
