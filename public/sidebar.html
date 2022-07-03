@@ -1,18 +1,6 @@
-<style>
-  @media only screen and (max-width: 600px) { /*there is a very specific width at which my browser moves the navbar ಠ_ಠ*/
-    
-    nav {
-      display:flex;
-      flex-wrap:wrap;
-      justify-content: space-around;
-      max-width: 100%;
-      position: sticky;
-      z-index: 10;
-      top: 0;
-    }
-  }
-</style>
 <nav>
+  <div id="navalert" onclick="toggleNav()">🌟toggle navigation</div>
+  <div id="navcontent">
     <p><a href = "/">Home</a></p>
     <p><a href = "/about">About</a></p>
     <p><a href = "/diary">Diary</a></p>
@@ -24,4 +12,46 @@
     <!-- <a href = "https://www.deviantart.com/feshtail/art/Cute-witch-pixel-pagedoll-animated-uwuwuw-756887322" target="_blank">
       <img src = "witch.gif" class = "extras overlap-extras" style="bottom: 0;right: 10em;">
     </a> -->
+  </div>
 </nav>
+
+<script>
+  function toggleNav(){
+    var x = document.getElementById("navcontent");
+    if (x.style.display === "none") {
+      x.style.display = "inline";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+
+<style>
+
+  #navalert {
+    display: none;
+  }
+
+
+  @media only screen and (max-width: 800px) {
+    
+
+    nav {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content: space-around;
+      max-width: 100%;
+      position: sticky;
+      z-index: 10;
+      top: 0;
+    }
+
+    #navalert {
+      display: inline;
+    }
+
+    #navcontent {
+      display: none;
+    }
+  }
+</style>
