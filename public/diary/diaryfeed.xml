@@ -6,12 +6,27 @@
     <description>Whatever thoughts and feelings I have in that moment</description>
     <link>https://isabz.neocities.org/diary/</link>
     <lastBuildDate>
-        Fri, 19 Aug 2022 21:46:32 +0000
+        Tue, 08 Nov 2022 23:11:36 +0000
         <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
     </lastBuildDate>
     <ttl>10000</ttl>
 
     <!-- to update just copy from <item> to </item>, update last build date and adjust as needed-->
+
+    
+
+    <item>
+        <title>First term ramblings</title>
+        <description>
+            More talk on what anime I've been watching. And a little AI art ramble.
+        </description>
+        <link>https://isabz.neocities.org/diary/posts/2022-11-08-First-Term-Ramblings.html</link>
+        <guid>https://isabz.neocities.org/diary/posts/2022-11-08-First-Term-Ramblings.html</guid>
+        <pubDate>
+            Tue, 08 Nov 2022 23:11:36 +0000
+            <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
+        </pubDate>
+    </item>
 
     <item>
         <title>Rabbit hole</title>
