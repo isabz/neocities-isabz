@@ -13,7 +13,18 @@
 
     <!-- to update just copy from <item> to </item>, update last build date and adjust as needed-->
 
-    
+    <item>
+        <title>Summer again</title>
+        <description>
+            I've survived another year!
+        </description>
+        <link>https://isabz.neocities.org/diary/posts/2023-07-04-Summer-again.html</link>
+        <guid>https://isabz.neocities.org/diary/posts/2023-07-04-Summer-again.html</guid>
+        <pubDate>
+            Tue, 04 Jul 2023 12:37:01 +0000
+            <!-- rfc2822, use timestamp generator: https://timestampgenerator.com/  -->
+        </pubDate>
+    </item>    
 
     <item>
         <title>First term ramblings</title>
