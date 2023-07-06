@@ -6,7 +6,13 @@
   font-family: cuteFont;
   /*src: url(ADDSBP__.TTF);*/
   /*src: url(04B_03__.TTF);*/
-  src:url(PixelOperator.ttf);
+  src:url(https://isabz.neocities.org/PixelOperator.ttf);
+  /* src:url(PixelOperator.ttf); */
+}
+
+@font-face {
+  font-family: KiwiSoda;
+  src: url(https://isabz.neocities.org/KiwiSoda.ttf);
 }
 
 body {
@@ -26,6 +32,10 @@ body {
 ul {
   list-style-image: url('star4-purple1.gif');
   }
+
+h1, h2, h3 {
+  font-family: KiwiSoda, cuteFont, Verdana, sans-serif;
+}
 
 h1 {
   text-align: center;
